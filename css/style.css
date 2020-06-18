@@ -1,0 +1,19 @@
+.row {
+    max-width: 1200px;
+    height: 150px;
+}
+
+.row .row [class^="col-"] {
+    padding: 5px;
+}
+
+[class^="col-"] {
+    background-color: pink;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 150px;
+}
+
+.box {
+    background-color: hotpink;
+}
